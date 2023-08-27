@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Mirror</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .mirror-container {
+      background-color: black;
+      color: white;
+    }
+    /* img{
+      position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    } */
+  </style>
+  
+  <style type="text/css">
+
+    @font-face {
+        font-family: Lato ;
+        src: url('../src/public/font/BioRhyme-Regular.otf');
+    }
+    * { 
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    }
+  </style>
+    
+</head>
+<body>
+  <div class="mirror-container h-screen flex justify-center items-center">
+    <div class="bg-transparent shadow-none rounded-lg p-6">
+      <h1 id="title" class="text-2xl font-bold mb-4 text-center"></h1>
+      <div class="flex justify-center items-center">
+        <!-- <img src="mirror-image.jpg" alt="Smart Mirror" class="w-48 h-48 rounded-full object-cover"> -->
+      </div>
+      <div class="mt-4">
+        <h2 class="text-lg font-bold">Tarih Ve Saat <img src="../src/public/img/clock.png" class="inline-block w-6" alt=""></h2>
+        <p id="date" class="text-gray-200">18:06</p>
+        <p id="time" class="text-gray-200">July 14, 2023</p>
+      </div>
+      <br>
+      <hr>
+      <div class="mt-4 flex items-center">
+        <div>
+          <h2 class="text-lg font-bold">Hava Durumu </h2>
+          <p id="weather" class="text-gray-200">
+          </p>
+        </div>
+      </div>
+      
+      <div class="mt-4">
+        <!-- Diğer bileşenleri buraya ekleyebilirsiniz -->
+      </div>
+    </div>
+
+
+
+    <div class="absolute top-4 left-4">
+      Fp Arena Mobil
+
+      <div class="row">
+        <div class="">
+          <img class="absolute mt-2" src="../src/public/img/play.png" height="100px" width="100px" alt="">
+        </div>
+        <div>
+          <img src="../src/public/img/app.png" height="100px" width="100px" alt="">
+        </div>
+      </div>
+      <div class="insta mt-10">
+        <h5 style="font-size: 14px;" class="">Bizi İnstagramdan Takip Edin</h5>
+        <img class="inline-block" src="../src/public/img/insta.png" width="20px" height="20px" alt="">
+        fp_arena
+      </div>
+    </div>
+
+    <div class="absolute top-4 right-4">
+      <!-- <img src="logo.png" alt="Logo" class="w-16 h-16"> -->
+      <img src="http://fparena.com.tr/public/default/img/cdn/logo.svg" alt="">
+    </div>
+    <div class="absolute bottom-4 left-4">
+      <h3 class="text-lg font-bold"><img src="../src/public/img/newspaper.png" class="inline-block w-8" alt=""> Haber Başlıkları</h3>
+      <ul class="mt-2">
+
+        <li id="news">
+          Haber Başlığı 1</li>
+        <li id="news2">Haber Başlığı 2</li>
+        <!-- Diğer haber başlıklarını buraya ekleyebilirsiniz -->
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
