@@ -16,9 +16,9 @@ Type the api you got from this site in the apiUrl variable
 
 **Text Adjustment Page on the Website**
 ``localhost:3000``
-
-![web](https://github.com/Aqueex/SmartMirror/assets/57568399/b385857b-59e9-43bc-a8ac-cf8c7bb9168f)
+![web](https://github.com/Aqueex/SmartMirror/assets/57568399/eab344d3-391b-421e-a1b5-ce5ff4df6be3)
 
 **Application Image**
 
-![Smart](https://github.com/Aqueex/SmartMirror/assets/57568399/5bcadfe3-1074-471d-a536-4723ecde0eca)
+![Smart](https://github.com/Aqueex/SmartMirror/assets/57568399/52a08333-2d98-460e-b6ec-7e122084fa3b)
+
